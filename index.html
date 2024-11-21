@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GD Textbox Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="undo-redo">
+  <button onclick="undo()">Undo</button>
+  <button onclick="redo()">Redo</button>
+</div>
+<div class="social-sharing">
+  <button onclick="shareToTwitter()">Share to Twitter</button>
+  <button onclick="shareToFacebook()">Share to Facebook</button>
+</div>
+<div class="custom-upload">
+  <label for="icon-upload">Upload Your Icon:</label>
+  <input type="file" id="icon-upload" accept="image/*">
+</div>
+<div class="icon-selector">
+  <label for="icon-select">Choose an Icon:</label>
+  <select id="icon-select">
+    <option value="icon1">Icon 1</option>
+    <option value="icon2">Icon 2</option>
+    <option value="icon3">Icon 3</option>
+  </select>
+</div>
+ <button onclick="saveAsImage()">Save as Image</button>
+  <div class="container">
+    <h1>Geometry Dash Textbox Generator</h1>
+    <input type="text" id="gd-text" placeholder="Enter your text here">
+    <button onclick="generateTextbox()">Generate Textbox</button>
+    <div id="output">
+      <!-- Textbox will appear here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

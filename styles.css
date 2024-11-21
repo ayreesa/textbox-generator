@@ -1,0 +1,98 @@
+body {
+  font-family: 'RussoOne-Regular.ttf', sans-serif; /* Download or link this font */
+  background-color: #1e1e2c;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #00ffcc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #00ffcc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #009999;
+}
+
+#output {
+  margin-top: 20px;
+}
+
+.gd-textbox {
+  display: inline-block;
+  padding: 20px;
+  background-color: #222;
+  border: 5px solid #00ffcc;
+  border-radius: 10px;
+  color: #00ffcc;
+  font-size: 20px;
+  box-shadow: 0 0 15px #00ffcc;
+}
+.gd-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.custom-upload {
+  margin-top: 10px;
+}
+
+#icon-upload {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  font-size: 16px;
+}
+.social-sharing button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: white;
+  background-color: #1da1f2; /* Default Twitter color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-sharing button:nth-child(2) {
+  background-color: #3b5998; /* Default Facebook color */
+}
+.social-sharing button:hover {
+  opacity: 0.8;
+}
+.undo-redo button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: white;
+  background-color: #007bff; /* Blue color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.undo-redo button:hover {
+  opacity: 0.8;
+}
